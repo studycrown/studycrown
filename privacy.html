@@ -3,63 +3,355 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy — Your App Name</title>
+  <title>Privacy Policy — Study Crown</title>
   <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+ 
     body {
-      font-family: -apple-system, sans-serif;
-      max-width: 700px;
-      margin: 60px auto;
-      padding: 0 20px;
-      color: #333;
-      line-height: 1.7;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f9f9f7;
+      color: #1a1a1a;
+      line-height: 1.75;
+      padding: 40px 20px 80px;
     }
-    h1 { font-size: 24px; }
-    h2 { font-size: 18px; margin-top: 32px; }
+ 
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 48px 52px;
+      border: 1px solid #e8e8e4;
+    }
+ 
+    .header {
+      margin-bottom: 40px;
+      padding-bottom: 28px;
+      border-bottom: 1px solid #e8e8e4;
+    }
+ 
+    .app-name {
+      font-size: 13px;
+      font-weight: 500;
+      color: #888;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+ 
+    h1 {
+      font-size: 28px;
+      font-weight: 600;
+      color: #1a1a1a;
+      margin-bottom: 10px;
+    }
+ 
+    .last-updated {
+      font-size: 13px;
+      color: #999;
+    }
+ 
+    h2 {
+      font-size: 17px;
+      font-weight: 600;
+      color: #1a1a1a;
+      margin-top: 36px;
+      margin-bottom: 12px;
+    }
+ 
+    p {
+      font-size: 15px;
+      color: #333;
+      margin-bottom: 14px;
+    }
+ 
+    ul {
+      margin: 10px 0 14px 0;
+      padding-left: 20px;
+    }
+ 
+    li {
+      font-size: 15px;
+      color: #333;
+      margin-bottom: 8px;
+    }
+ 
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0 20px;
+      font-size: 14px;
+    }
+ 
+    th {
+      text-align: left;
+      padding: 10px 14px;
+      background: #f4f4f1;
+      color: #555;
+      font-weight: 500;
+      border-bottom: 1px solid #e8e8e4;
+    }
+ 
+    td {
+      padding: 10px 14px;
+      border-bottom: 1px solid #f0f0ec;
+      color: #333;
+      vertical-align: top;
+    }
+ 
+    tr:last-child td {
+      border-bottom: none;
+    }
+ 
+    .highlight-box {
+      background: #f4f4f1;
+      border-left: 3px solid #888;
+      border-radius: 0 6px 6px 0;
+      padding: 14px 18px;
+      margin: 16px 0 20px;
+      font-size: 14px;
+      color: #444;
+    }
+ 
+    a {
+      color: #4a5568;
+      text-decoration: underline;
+    }
+ 
+    a:hover {
+      color: #1a1a1a;
+    }
+ 
+    .contact-box {
+      background: #f9f9f7;
+      border: 1px solid #e8e8e4;
+      border-radius: 8px;
+      padding: 20px 24px;
+      margin-top: 16px;
+    }
+ 
+    .contact-box p {
+      margin-bottom: 6px;
+    }
+ 
+    .contact-box p:last-child {
+      margin-bottom: 0;
+    }
+ 
+    .footer {
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid #e8e8e4;
+      font-size: 13px;
+      color: #aaa;
+      text-align: center;
+    }
+ 
+    @media (max-width: 600px) {
+      .container {
+        padding: 32px 24px;
+      }
+      h1 { font-size: 24px; }
+    }
   </style>
 </head>
 <body>
-
-  <h1>Privacy Policy</h1>
-  <p>Last updated: April 1, 2026</p>
-
-  <p>Your App Name ("we", "us", or "our") operates the Your App Name 
-  iOS application. This page explains how we collect, use, and protect 
-  your information.</p>
-
-  <h2>Information we collect</h2>
-  <p>When you create an account, we collect your email address and 
-  assign you a unique user ID. We collect the text you enter to generate 
-  quizzes, flashcards, and Q&A content. We also collect usage data such 
-  as your daily generation counts.</p>
-
-  <h2>How we use your information</h2>
-  <p>Your account information is used to authenticate you and enforce 
-  your subscription tier. Text you enter is transmitted to Anthropic's 
-  Claude API to generate content and is saved to Firebase for your 
-  future reference. We do not sell your data or use it for advertising.</p>
-
-  <h2>Third parties</h2>
-  <p>We use the following third party services:</p>
-  <ul>
-    <li><strong>Firebase (Google)</strong> — authentication and data storage</li>
-    <li><strong>Anthropic</strong> — AI content generation via the Claude API</li>
-    <li><strong>Apple</strong> — payment processing for subscriptions</li>
-  </ul>
-  <p>User-entered text is transmitted to Anthropic to generate responses. 
-  Anthropic does not use API data to train their models by default. 
-  See Anthropic's privacy policy at anthropic.com for details.</p>
-
-  <h2>Data retention</h2>
-  <p>Your data is stored until you delete your account. You can request 
-  deletion by contacting us at your@email.com.</p>
-
-  <h2>Children's privacy</h2>
-  <p>This app is intended for users aged 13 and older. We do not 
-  knowingly collect data from children under 13.</p>
-
-  <h2>Contact us</h2>
-  <p>If you have questions about this privacy policy, contact us at 
-  your@email.com.</p>
-
+  <div class="container">
+ 
+    <div class="header">
+      <div class="app-name">Study Crown</div>
+      <h1>Privacy Policy</h1>
+      <p class="last-updated">Last updated: April 1, 2026</p>
+    </div>
+ 
+    <p>Study Crown ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use the Study Crown iOS application ("the App"). Please read this policy carefully. If you do not agree with its terms, please discontinue use of the App.</p>
+ 
+    <h2>1. Information we collect</h2>
+ 
+    <p>We collect the following categories of information when you use Study Crown:</p>
+ 
+    <table>
+      <thead>
+        <tr>
+          <th>Data type</th>
+          <th>What we collect</th>
+          <th>Why</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Account information</td>
+          <td>Email address, unique user ID</td>
+          <td>To create and authenticate your account</td>
+        </tr>
+        <tr>
+          <td>User-entered content</td>
+          <td>Text you enter to generate quizzes, flashcards, and Q&amp;A content</td>
+          <td>To generate AI-powered study content on your behalf</td>
+        </tr>
+        <tr>
+          <td>Generated content</td>
+          <td>AI-generated quiz questions, flashcards, and Q&amp;A responses</td>
+          <td>To save and display your content within the App</td>
+        </tr>
+        <tr>
+          <td>Usage data</td>
+          <td>Daily generation counts per content type</td>
+          <td>To enforce your subscription tier limits</td>
+        </tr>
+        <tr>
+          <td>Subscription status</td>
+          <td>Your active plan tier (Free, Plus, or Pro)</td>
+          <td>To provide the correct level of access</td>
+        </tr>
+        <tr>
+          <td>Diagnostic data</td>
+          <td>Crash reports and app performance data</td>
+          <td>To identify and fix technical issues</td>
+        </tr>
+      </tbody>
+    </table>
+ 
+    <h2>2. How we use your information</h2>
+ 
+    <p>We use the information we collect for the following purposes:</p>
+ 
+    <ul>
+      <li>To create and manage your account</li>
+      <li>To generate AI-powered study content based on your inputs</li>
+      <li>To save and display your generated content within the App</li>
+      <li>To enforce daily generation limits based on your subscription tier</li>
+      <li>To process subscription payments through Apple's In-App Purchase system</li>
+      <li>To respond to your support requests</li>
+      <li>To diagnose technical problems and improve App performance</li>
+      <li>To comply with legal obligations</li>
+    </ul>
+ 
+    <p>We do not sell your personal information. We do not use your data for advertising or marketing purposes beyond communicating with you about Study Crown itself.</p>
+ 
+    <h2>3. How your content is processed</h2>
+ 
+    <div class="highlight-box">
+      When you generate content in Study Crown, the text you enter is transmitted to Anthropic's Claude API to produce your quiz questions, flashcards, and Q&amp;A responses. This means your input text is processed by Anthropic's servers. Anthropic does not use API-submitted data to train their models by default. For full details on how Anthropic handles data, see <a href="https://www.anthropic.com/privacy" target="_blank">Anthropic's Privacy Policy</a>.
+    </div>
+ 
+    <p>Your generated content and usage data are stored securely in Google Firebase, a cloud database service operated by Google LLC. Firebase is used solely to store your data and make it accessible to you within the App.</p>
+ 
+    <h2>4. Third-party service providers</h2>
+ 
+    <p>We share data with the following third-party services in order to operate the App:</p>
+ 
+    <table>
+      <thead>
+        <tr>
+          <th>Service</th>
+          <th>Provider</th>
+          <th>Purpose</th>
+          <th>Data shared</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Firebase Authentication</td>
+          <td>Google LLC</td>
+          <td>Account creation and login</td>
+          <td>Email address, user ID</td>
+        </tr>
+        <tr>
+          <td>Cloud Firestore</td>
+          <td>Google LLC</td>
+          <td>Data storage</td>
+          <td>Generated content, usage data</td>
+        </tr>
+        <tr>
+          <td>Firebase Crashlytics</td>
+          <td>Google LLC</td>
+          <td>Crash reporting</td>
+          <td>Diagnostic and device data</td>
+        </tr>
+        <tr>
+          <td>Claude API</td>
+          <td>Anthropic, PBC</td>
+          <td>AI content generation</td>
+          <td>User-entered text prompts</td>
+        </tr>
+        <tr>
+          <td>In-App Purchases</td>
+          <td>Apple Inc.</td>
+          <td>Subscription billing</td>
+          <td>Subscription status only</td>
+        </tr>
+      </tbody>
+    </table>
+ 
+    <p>We do not share your data with any other third parties. We do not sell, rent, or trade your personal information.</p>
+ 
+    <h2>5. Data storage and security</h2>
+ 
+    <p>Your data is stored on Google Firebase servers. Google maintains industry-standard security certifications including SOC 2 and ISO 27001. We implement the following measures to protect your data:</p>
+ 
+    <ul>
+      <li>All data transmission between the App and our backend is encrypted via HTTPS/TLS</li>
+      <li>Firebase security rules restrict data access so users can only access their own content</li>
+      <li>Our Anthropic API key is stored securely using Firebase Secret Manager and is never exposed client-side</li>
+      <li>Authentication is handled by Firebase Authentication, not custom credential storage</li>
+    </ul>
+ 
+    <p>While we take reasonable measures to protect your information, no method of electronic transmission or storage is 100% secure. We cannot guarantee absolute security.</p>
+ 
+    <h2>6. Data retention</h2>
+ 
+    <p>We retain your data for as long as your account is active. If you delete your account, we will delete your personal information and generated content from our systems within 30 days, except where we are required to retain it by law.</p>
+ 
+    <p>Daily usage counts are stored by date and naturally become inactive after each day. We may retain anonymized, aggregated usage statistics that cannot be linked back to you.</p>
+ 
+    <h2>7. Your rights and choices</h2>
+ 
+    <p>You have the following rights with respect to your data:</p>
+ 
+    <ul>
+      <li><strong>Access:</strong> You may request a copy of the personal data we hold about you</li>
+      <li><strong>Correction:</strong> You may request that we correct inaccurate information</li>
+      <li><strong>Deletion:</strong> You may request deletion of your account and associated data</li>
+      <li><strong>Portability:</strong> You may request an export of your generated content</li>
+    </ul>
+ 
+    <p>To exercise any of these rights, contact us at <a href="mailto:studycrownsupport@gmail.com">studycrownsupport@gmail.com</a>. We will respond within 30 days.</p>
+ 
+    <p>You may also delete your account directly within the App. Account deletion will permanently remove all your data from our systems.</p>
+ 
+    <h2>8. Children's privacy</h2>
+ 
+    <p>Study Crown is intended for users aged 13 and older. We do not knowingly collect personal information from children under the age of 13. If you are a parent or guardian and believe your child under 13 has provided us with personal information, please contact us immediately at <a href="mailto:studycrownsupport@gmail.com">studycrownsupport@gmail.com</a> and we will delete that information promptly.</p>
+ 
+    <p>Users between the ages of 13 and 17 should review this policy with a parent or guardian before using the App.</p>
+ 
+    <h2>9. AI-generated content disclaimer</h2>
+ 
+    <p>Content generated by Study Crown is produced by an artificial intelligence system and may contain errors, inaccuracies, or incomplete information. AI-generated quizzes, flashcards, and Q&amp;A responses should be reviewed for accuracy and are not a substitute for authoritative educational materials. Study Crown is not responsible for decisions made based on AI-generated content.</p>
+ 
+    <h2>10. Subscriptions and billing</h2>
+ 
+    <p>Subscription payments are processed entirely by Apple through the App Store's In-App Purchase system. We do not collect or store your payment card information. Subscription management, cancellation, and refund requests are handled through your Apple ID account settings. For refund requests, contact Apple Support directly.</p>
+ 
+    <h2>11. Changes to this policy</h2>
+ 
+    <p>We may update this Privacy Policy from time to time. When we do, we will update the "Last updated" date at the top of this page. For material changes, we will notify you through the App or via the email address associated with your account. Your continued use of the App after any changes constitutes your acceptance of the updated policy.</p>
+ 
+    <h2>12. Contact us</h2>
+ 
+    <p>If you have questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:</p>
+ 
+    <div class="contact-box">
+      <p><strong>Study Crown Support</strong></p>
+      <p>Email: <a href="mailto:studycrownsupport@gmail.com">studycrownsupport@gmail.com</a></p>
+      <p>We aim to respond to all privacy-related inquiries within 30 days.</p>
+    </div>
+ 
+    <div class="footer">
+      &copy; 2026 Study Crown. All rights reserved.
+    </div>
+ 
+  </div>
 </body>
 </html>
